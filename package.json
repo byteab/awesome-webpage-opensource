@@ -1,0 +1,17 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:css": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ehsan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "jshint": "^2.9.6"
+  }
+}
